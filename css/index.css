@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.logo > img {
+  width: 50px;
+}
+
+section {
+	border: 1px solid #6278B0;
+	margin: 5px; 
+}
+
+ol, li {
+	list-style: none;
+}
+ul {
+	width: 80%;
+}
+
+/*ELEMENTS INSIDE NAVBAR*/
+/* 1° Element */
+.navbar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #949494;
+}
+
+/* 2° Element  */
+.menu {
+	display: flex;
+	width: 80%;
+}
+/* 3° Element inside menu */
+.menu > li {
+	width:25%;
+	/*Disappear Text*/
+	color: #949494;
+}
+/* 2° Element */
+.hamburger {
+	width: 10%;
+	align-self: flex-end;
+	color: white;
+	/**/margin-right: 0;
+	margin-left: 0;
+	padding: 0;
+	text-align: right;
+}
+
+
+
