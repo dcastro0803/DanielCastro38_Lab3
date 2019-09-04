@@ -65,13 +65,58 @@ menu ul  {
 	width: 33%;
 }
 
-/* */
+/* Change the header */
 @media (min-width: 600px) and (max-width: 990px){
-
+	header {
+		display: flex;
+	}
+	.logo {
+		width: 40%;
+		align-self: center;
+	}
+	header > h1{
+		width: 60%;
+		text-align: left;
+	}
 }
 
 
 /* */ 
 @media (min-width: 991px){
-	
+	/* header */
+	header {
+		display: flex;
+	}
+	.logo {
+		width: 33%;
+		align-self: center;
+	}
+	header > h1{
+		width: 66%;
+		text-align: left;
+	}
+	/* body*/
+	main {
+		display: flex;
+	}
+	.product{
+		width: 33%;
+	}
+	/* Appear Elements*/
+	.menu {
+		justify-content: flex-end;
+	}
+	.menu > li {
+		/*Appear Text*/
+		color: white;
+		width: 10%;
+	}
+
+	.hamburger {
+		color: #949494;
+		/*color: white;*/
+		padding: 0;
+		text-align: right;
+		width:1%;
+	}
 }
