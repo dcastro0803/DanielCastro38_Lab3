@@ -1,3 +1,5 @@
+/* Media attributes for all Media Queries */
+/* and initial media  */
 * {
   box-sizing: border-box;
 }
@@ -21,7 +23,7 @@ section {
 ol, li {
 	list-style: none;
 }
-ul {
+menu ul  {
 	width: 80%;
 }
 
@@ -50,11 +52,26 @@ ul {
 	width: 10%;
 	align-self: flex-end;
 	color: white;
-	/**/margin-right: 0;
-	margin-left: 0;
 	padding: 0;
 	text-align: right;
 }
 
+/* Footer List */
+.social {
+	display: flex;
+}
+/* li elements inside social only*/
+.social > li {
+	width: 33%;
+}
+
+/* */
+@media (min-width: 600px) and (max-width: 990px){
+
+}
 
 
+/* */ 
+@media (min-width: 991px){
+	
+}
